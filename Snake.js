@@ -7,28 +7,7 @@ class Snake {
     this.tail = [tailDuplicate, tailDuplicate, tailDuplicate, tailDuplicate, tailDuplicate];
     this.id = id;
     this.dead = false;
-    /*
-    *  3*8 input neurons, can see in 8 directions and can see
-    *  the distance to the food in that direction (if any),
-    *  the distance to the body in that direction (if any),
-    *  and the distance to the wall in that direction
-    *  0 = body
-    *  1 = food
-    *  2 = wall
-    */
-    this.inputSize = 24;
-    this.outputSize = 4; //For going in 4 different directions
   }
-  
-  /*getInputs() {
-    var c = 0;
-    for (var i=0; i<3; i++) {
-      for (var j=0; j<(this.inputSize)/3; j++) {
-        this.inputs[c] = findDistance(i, getDirection(j), createVector(this.x, this.y), this.id);
-        c++;
-      }
-    }
-  }*/
 
   show() {
     fill(255);
