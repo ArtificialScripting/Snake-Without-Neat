@@ -3,21 +3,3 @@ body {
   padding: 0;
   background-color: black;
 }
-
-button {
-  background-color: rgb(5, 5, 5);
-  color: white;
-  border-radius: 10px;
-  border-color: white;
-  font-size: 2em;
-  width:10em;
-  text-align: center;
-  border-style: solid;
-  cursor: pointer;
-  transition: all .5s;
-}
-
-button:hover {
-  width: 15em;
-  background-color: rgba(255, 255, 255, .8);
-}
