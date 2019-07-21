@@ -63,6 +63,6 @@ function Restart() {
     snake[i].y = 0;
     snake[i].timeSinceFood = 0;
     snake[i].tail = [createVector(snake[i].x, snake[i].y),createVector(snake[i].x, snake[i].y),createVector(snake[i].x, snake[i].y),createVector(snake[i].x, snake[i].y)];
-    snake[i].dir = createVector(snake[i].x, snake[i].y);
+    snake[i].dir = createVector(0, 0);
   }
 }
