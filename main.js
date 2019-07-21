@@ -6,7 +6,7 @@ var food = [];
 function setup() {
   createCanvas(1200, 600).parent("canvas");
   snake[0] = new Snake(0);
-  food[i] = new Food();
+  food[0] = new Food();
   frameRate(10);
 }
 
